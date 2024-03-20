@@ -11,7 +11,10 @@ The script reads a file named `psvita.xlsx` with two columns: Name and ID. It th
 
 ## Usage
 
-1. Make sure you have the `psvita.xlsx` file with the desired game names and IDs.
+1. Ensure that when filling out the spreadsheet, the names and IDs are entered correctly. For example:
+    - Name: God of War Collection
+    - ID: PCSA00126
+
 2. Run the provided Python script.
 3. The `.psvita` files will be generated in the specified directory.
 4. Copy and paste these files into the PSVITA ROMs folder of the ES-DE Frontend or the Beacon Frontend on Android.
@@ -34,30 +37,33 @@ It's important to note that the ES-DE and Beacon Frontends may encounter issues 
 
 Português do Brasil
 
-# PSVITA ROMs Management Script
+# Script de Gerenciamento de ROMs PSVITA
 
-Este é um script em Python para facilitar a gestão de capinhas de jogos PSVITA para os Frontends ES-DE e Beacon no Android.
+Este é um script em Python para facilitar o gerenciamento de capas de jogos PSVITA para os Frontends ES-DE e Beacon no Android.
 
 ## Funcionalidades
 
-O script lê um arquivo chamado `psvita.xlsx` com duas colunas: Nome e ID. Ele então gera arquivos com os nomes presentes na coluna "Nome" com a extensão `.psvita`. Dentro desses arquivos, há apenas o ID do jogo correspondente.
+O script lê um arquivo chamado `psvita.xlsx` com duas colunas: Nome e ID. Em seguida, gera arquivos com os nomes listados na coluna "Nome" com a extensão `.psvita`. Dentro desses arquivos, apenas o ID do jogo é incluído.
 
 ## Utilização
 
-1. Certifique-se de ter o arquivo `psvita.xlsx` com os nomes e IDs dos jogos desejados.
+1. Certifique-se de que, ao preencher a planilha, os nomes e IDs sejam inseridos corretamente. Por exemplo:
+    - Nome: God of War Collection
+    - ID: PCSA00126
+
 2. Execute o script Python fornecido.
 3. Os arquivos `.psvita` serão gerados no diretório especificado.
 4. Copie e cole esses arquivos na pasta de ROMs PSVITA do ES-DE Frontend ou do Beacon Frontend no Android.
 
 ## Aviso Legal
 
-Não está sendo disponibilizado nenhum jogo, ROM, BIOS ou qualquer conteúdo com propriedade intelectual neste repositório. Este repositório tem o objetivo único de auxiliar na organização das capinhas dos jogos.
+Nenhum jogo, ROM, BIOS ou qualquer conteúdo protegido por direitos autorais é fornecido neste repositório. Este repositório tem como único objetivo auxiliar no gerenciamento de capas de jogos.
 
 ## Observações
 
-É importante notar que os Frontends ES-DE e Beacon podem apresentar problemas na abertura dos jogos. Caso ocorram problemas, recomenda-se utilizar o emulador vita3k para abrir os jogos corretamente.
+É importante observar que os Frontends ES-DE e Beacon podem encontrar problemas ao abrir os jogos. Se surgirem problemas, é recomendável usar o emulador vita3k para abrir os jogos corretamente.
 
-**Nota:** Certifique-se de respeitar as leis de direitos autorais ao utilizar este script e os emuladores mencionados.
+**Observação:** Certifique-se de estar em conformidade com as leis de direitos autorais ao utilizar este script e os emuladores mencionados.
 
 ---
 
