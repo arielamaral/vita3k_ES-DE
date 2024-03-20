@@ -1,4 +1,36 @@
 ---
+English
+
+# PSVITA ROMs Management Script
+
+This is a Python script to facilitate the management of PSVITA game covers for the ES-DE and Beacon Frontends on Android.
+
+## Features
+
+The script reads a file named `psvita.xlsx` with two columns: Name and ID. It then generates files with the names listed in the "Name" column with the extension `.psvita`. Within these files, only the game's ID is included.
+
+## Usage
+
+1. Make sure you have the `psvita.xlsx` file with the desired game names and IDs.
+2. Run the provided Python script.
+3. The `.psvita` files will be generated in the specified directory.
+4. Copy and paste these files into the PSVITA ROMs folder of the ES-DE Frontend or the Beacon Frontend on Android.
+
+## Legal Disclaimer
+
+No games, ROMs, BIOS, or any copyrighted content are provided in this repository. This repository solely aims to assist in managing game covers.
+
+## Notes
+
+It's important to note that the ES-DE and Beacon Frontends may encounter issues when opening games. If problems arise, it's recommended to use the vita3k emulator to open the games correctly.
+
+**Note:** Please ensure compliance with copyright laws when using this script and the mentioned emulators.
+
+---
+
+*This project is developed independently and is not affiliated with the developers of the ES-DE and Beacon Frontends or the vita3k emulator.*
+
+---
 
 Português do Brasil
 
@@ -30,36 +62,3 @@ Não está sendo disponibilizado nenhum jogo, ROM, BIOS ou qualquer conteúdo co
 ---
 
 *Este projeto é desenvolvido de forma independente e não possui afiliação com os desenvolvedores dos Frontends ES-DE e Beacon, nem com o emulador vita3k.*
-
----
----
-English
-
-# PSVITA ROMs Management Script
-
-This is a Python script to facilitate the management of PSVITA game covers for the ES-DE and Beacon Frontends on Android.
-
-## Features
-
-The script reads a file named `psvita.xlsx` with two columns: Name and ID. It then generates files with the names listed in the "Name" column with the extension `.psvita`. Within these files, only the game's ID is included.
-
-## Usage
-
-1. Make sure you have the `psvita.xlsx` file with the desired game names and IDs.
-2. Run the provided Python script.
-3. The `.psvita` files will be generated in the specified directory.
-4. Copy and paste these files into the PSVITA ROMs folder of the ES-DE Frontend or the Beacon Frontend on Android.
-
-## Legal Disclaimer
-
-No games, ROMs, BIOS, or any copyrighted content are provided in this repository. This repository solely aims to assist in managing game covers.
-
-## Notes
-
-It's important to note that the ES-DE and Beacon Frontends may encounter issues when opening games. If problems arise, it's recommended to use the vita3k emulator to open the games correctly.
-
-**Note:** Please ensure compliance with copyright laws when using this script and the mentioned emulators.
-
----
-
-*This project is developed independently and is not affiliated with the developers of the ES-DE and Beacon Frontends or the vita3k emulator.*
