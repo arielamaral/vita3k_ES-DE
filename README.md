@@ -1,6 +1,3 @@
----
-English
-
 # PSVITA ROMs Management Script
 
 This is a Python script to facilitate the management of PSVITA game covers for the ES-DE and Beacon Frontends on Android.
@@ -19,6 +16,10 @@ The script reads a file named `psvita.xlsx` with two columns: Name and ID. It th
 3. The `.psvita` files will be generated in the specified directory.
 4. Copy and paste these files into the PSVITA ROMs folder of the ES-DE Frontend or the Beacon Frontend on Android.
 
+## "ALL PSVITA FILES" Folder
+
+- There will be a folder named "ALL PSVITA FILES" containing all the `.psvita` files and their respective IDs, in case the user wants to simply download and transfer them to Android.
+
 ## Legal Disclaimer
 
 No games, ROMs, BIOS, or any copyrighted content are provided in this repository. This repository solely aims to assist in managing game covers.
@@ -34,8 +35,6 @@ It's important to note that the ES-DE and Beacon Frontends may encounter issues 
 *This project is developed independently and is not affiliated with the developers of the ES-DE and Beacon Frontends or the vita3k emulator.*
 
 ---
-
-Português do Brasil
 
 # Script de Gerenciamento de ROMs PSVITA
 
@@ -54,6 +53,10 @@ O script lê um arquivo chamado `psvita.xlsx` com duas colunas: Nome e ID. Em se
 2. Execute o script Python fornecido.
 3. Os arquivos `.psvita` serão gerados no diretório especificado.
 4. Copie e cole esses arquivos na pasta de ROMs PSVITA do ES-DE Frontend ou do Beacon Frontend no Android.
+
+## Pasta "ALL PSVITA FILES"
+
+- Haverá uma pasta chamada "ALL PSVITA FILES" com todos os arquivos `.psvita` e seus respectivos IDs, caso a pessoa queira apenas baixar e transferir para o Android.
 
 ## Aviso Legal
 
